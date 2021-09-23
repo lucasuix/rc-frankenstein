@@ -45,8 +45,9 @@ sudo apt install libpulse-**
 #O ** significa que vai passar e instalar todos os pacotes com começo alsa, como se ** fosse uma incógnita
 
 sudo apt install git
+cd ~
 git clone --recursive https://github.com/jaagr/polybar.git
-cd polybar && ./build.sh
+cd ~/polybar && ./build.sh
 
 #Inicializando e configurando o polybar
 vim ~/.config/polybar/launch.sh
