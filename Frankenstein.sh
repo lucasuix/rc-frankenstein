@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt upgrade
-sudo apt install bspwm
+#sudo apt install bspwm
 #Backup
 #Configurando bspwm
 mkdir ~/.config
