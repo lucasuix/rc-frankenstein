@@ -3,8 +3,8 @@ sudo apt upgrade
 sudo apt install bspwm
 #Backup
 #Configurando bspwm
-mkdir .config
-mkdir .config/bspwm .config/sxhkd
+mkdir ~/.config
+mkdir ~/.config/bspwm ~/.config/sxhkd
 cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
 cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
 
@@ -28,7 +28,7 @@ sudo apt install lightdm-gtk-greeter
 #Agora instalando a parte gráfica do sistema, para rodar esses apps
 sudo apt install xorg
 
-sudo reboot
+#sudo reboot
 
 #Concluída a instalação do bspwm. Agora é a personalização e instalação dos drivers de áudio e vídeo.
 #Dê SUPER + RETURN para abrir o terminal
